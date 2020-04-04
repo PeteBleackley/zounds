@@ -7,7 +7,7 @@ class SuprasegmentalCluster (Cluster):
 
     def __init__ (self, binary_features_model, suprasegmental_characters=None,
                   normalised_form=None):
-        super().__init__(binary_features_model)
+        super(SuprasegmentalCluster,self).__init__(binary_features_model)
         if not suprasegmental_characters and not normalised_form:
             # QAZ: error message.
             raise IllegalArgumentError()

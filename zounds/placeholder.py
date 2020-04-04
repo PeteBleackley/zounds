@@ -12,7 +12,7 @@ class Placeholder (RuleElement):
         :type source_component: `.SourceRuleComponent`
 
         """
-        super().__init__(binary_features_model)
+        super(Placeholder,self).__init__(binary_features_model)
         self._source_component = source_component
 
     @property

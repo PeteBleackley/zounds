@@ -8,7 +8,7 @@ from .word_element import WordElement
 class FeatureSet (RuleElement, WordElement):
 
     def __init__ (self, binary_features_model):
-        super().__init__(binary_features_model)
+        super(FeatureSet,self).__init__(binary_features_model)
         self._features = getattr(binary_features_model,
                                  self._feature_type_property)
         # Dictionary mapping feature values to features.

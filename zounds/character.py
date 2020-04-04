@@ -21,11 +21,13 @@ class Character (WordElement):
         :type ipa: str
 
         """
+        super(Character,self).__init__(binary_features_model)
         if not hasattr(self, '_initialised'):
             self._initialised = True
             self.binary_features_model = binary_features_model
             self._ipa = ipa
             self.binary_features_model._add_character(self)
+            
 
     def __str__ (self):
         return self.ipa

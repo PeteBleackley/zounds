@@ -7,7 +7,7 @@ class Optional (ContainerRuleElement):
     """A representation of an optional list of rule elements."""
     
     def __init__ (self, binary_features_model):
-        super().__init__(binary_features_model)
+        super(Optional,self).__init__(binary_features_model)
         self._is_multiple = False
 
     def append (self, element):

@@ -1,4 +1,4 @@
-class WordElement:
+class WordElement(object):
 
     @property
     def normalised_form (self):

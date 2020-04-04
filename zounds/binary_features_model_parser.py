@@ -10,7 +10,7 @@ from .suprasegmental_character import SuprasegmentalCharacter
 from .suprasegmental_feature import SuprasegmentalFeature
 
 
-class BinaryFeaturesModelParser:
+class BinaryFeaturesModelParser(object):
 
     """Class for parsing a binary features model configuration and
     generating a `.BinaryFeaturesModel` object."""

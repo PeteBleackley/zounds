@@ -1,4 +1,4 @@
-class RuleComponent:
+class RuleComponent(object):
 
     """A representation of a component of a rule."""
 

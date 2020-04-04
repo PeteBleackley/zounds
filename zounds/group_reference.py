@@ -14,6 +14,7 @@ class GroupReference (RuleElement):
         :type rule_component: `type`
 
         """
+        super(GroupReference,self).__init__()
         self._elements = []
         self._group_name = 'group{}'.format(index)
         if rule_component_class == SourceRuleComponent:

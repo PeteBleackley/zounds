@@ -2,7 +2,7 @@ from .constants import BNFM, HAS_FEATURE, INAPPLICABLE_FEATURE, NOT_HAS_FEATURE,
 from .exceptions import IllegalArgumentError, NormalisedFormValueError
 
 
-class NormalisedForm:
+class NormalisedForm(object):
 
     """Base class for normalised forms.
 

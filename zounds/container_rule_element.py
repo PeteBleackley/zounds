@@ -15,7 +15,7 @@ class ContainerRuleElement (RuleElement, MutableSequence):
     """
 
     def __init__ (self, binary_features_model):
-        super().__init__(binary_features_model)
+        super(ContainerRuleElement).__init__(binary_features_model)
         self._elements = []
     
     def __delitem__ (self, key):

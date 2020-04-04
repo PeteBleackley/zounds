@@ -14,7 +14,7 @@ from .ruleset import Ruleset
 from .source_rule_component import SourceRuleComponent
 
 
-class RulesetParser:
+class RulesetParser(object):
 
     """Class for parsing a ruleset configuration and generating a
     `.Ruleset` object."""

@@ -1,4 +1,4 @@
-class RuleElement:
+class RuleElement(object):
 
     """Base class for all elements that can occur within a rule."""
 

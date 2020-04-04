@@ -8,7 +8,7 @@ from .suprasegmental_character import SuprasegmentalCharacter
 from .suprasegmental_feature import SuprasegmentalFeature
 
 
-class BinaryFeaturesModel:
+class BinaryFeaturesModel(object):
 
     def __init__ (self):
         # A dictionary mapping characters to base feature values. The

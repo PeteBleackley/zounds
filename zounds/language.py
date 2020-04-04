@@ -1,7 +1,7 @@
 from .exceptions import IllegalArgumentError
 
 
-class Language:
+class Language(object):
 
     _cache = set()
 

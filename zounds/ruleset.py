@@ -1,4 +1,4 @@
-class Ruleset:
+class Ruleset(object):
 
     def __init__ (self, binary_features_model):
         self._binary_features_model = binary_features_model

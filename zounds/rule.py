@@ -1,7 +1,7 @@
 import re
 
 
-class Rule:
+class Rule(object):
 
     """A representation of a sound change rule.
 

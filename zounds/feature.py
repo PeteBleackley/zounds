@@ -1,7 +1,7 @@
 from .exceptions import InvalidFeatureError
 
 
-class Feature:
+class Feature(object):
 
     _cache = {}
 

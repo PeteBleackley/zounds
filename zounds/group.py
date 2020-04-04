@@ -13,7 +13,7 @@ class Group (ContainerRuleElement):
         :type index: `int`
 
         """
-        super().__init__(binary_features_model)
+        super(Group,self).__init__(binary_features_model)
         self._group_name = 'group{}'.format(index)
 
     def append (self, element):

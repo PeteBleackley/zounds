@@ -33,7 +33,7 @@ class BaseCluster (Cluster):
         :type normalised_form: `.BaseNormalisedForm`
 
         """
-        super().__init__(binary_features_model)
+        super(BaseCluster,self).__init__(binary_features_model)
         if not base_character and not normalised_form:
             # QAZ: error message.
             raise IllegalArgumentError()

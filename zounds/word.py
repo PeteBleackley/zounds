@@ -1,4 +1,4 @@
-class Word:
+class Word(object):
 
     """A representation of a word in a particular language at a
     particular time.

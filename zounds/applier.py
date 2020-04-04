@@ -1,7 +1,7 @@
 from .constants import FORWARDS
 
 
-class Applier:
+class Applier(object):
 
     def __init__ (self, ruleset):
         """Initialises this Applier.

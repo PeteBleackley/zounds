@@ -1,7 +1,7 @@
 from .exceptions import IllegalArgumentError
 
 
-class Date:
+class Date(object):
 
     _cache = set()
 
